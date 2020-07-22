@@ -18,7 +18,7 @@ int m_health;
 
 public:
     virtual void restore_health(){}
-    virtual void make_move(pair<int,int> current,vector <vector<Soldier*>> m_board)
+    virtual void make_move(pair<int,int> current,vector <vector<Soldier*>>& m_board)
     {
     }
 

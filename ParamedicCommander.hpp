@@ -12,7 +12,7 @@ class ParamedicCommander: public Paramedic {
 static const int s_health=200;
 public:
     ParamedicCommander(int id):Paramedic(id,s_health){}
-    void make_move(pair<int,int> current,vector <vector<Soldier*>> m_board)override ;
+    void make_move(pair<int,int> current,vector <vector<Soldier*>>& m_board)override ;
 
 
     virtual void restore_health()override {this->setHealth(ParamedicCommander::s_health);}

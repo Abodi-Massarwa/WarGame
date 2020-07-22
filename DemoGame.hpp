@@ -8,7 +8,7 @@
  * @since  2020-05
  */
 
-#include "Board.hpp"
+#include "Board.original.hpp"
 typedef unsigned int uint;
 namespace WarGame {
 	class DemoGame {

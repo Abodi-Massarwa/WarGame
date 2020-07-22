@@ -86,10 +86,16 @@
 		<Unit filename="C:/Users/abdms/CLionProjects/Ex4/Attacker.hpp">
 			<Option target="Ex4"/>
 		</Unit>
-		<Unit filename="C:/Users/abdms/CLionProjects/Ex4/Board.cpp">
+		<Unit filename="C:/Users/abdms/CLionProjects/Ex4/Board.hpp">
 			<Option target="Ex4"/>
 		</Unit>
-		<Unit filename="C:/Users/abdms/CLionProjects/Ex4/Board.hpp">
+		<Unit filename="C:/Users/abdms/CLionProjects/Ex4/Board.original.cpp">
+			<Option target="Ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/abdms/CLionProjects/Ex4/Board.original.hpp">
+			<Option target="Ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/abdms/CLionProjects/Ex4/Demo.cpp">
 			<Option target="Ex4"/>
 		</Unit>
 		<Unit filename="C:/Users/abdms/CLionProjects/Ex4/DemoGame.cpp">

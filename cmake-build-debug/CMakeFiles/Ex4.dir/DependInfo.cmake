@@ -5,7 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/abdms/CLionProjects/Ex4/Attacker.cpp" "C:/Users/abdms/CLionProjects/Ex4/cmake-build-debug/CMakeFiles/Ex4.dir/Attacker.cpp.obj"
-  "C:/Users/abdms/CLionProjects/Ex4/Board.cpp" "C:/Users/abdms/CLionProjects/Ex4/cmake-build-debug/CMakeFiles/Ex4.dir/Board.cpp.obj"
+  "C:/Users/abdms/CLionProjects/Ex4/Board.original.cpp" "C:/Users/abdms/CLionProjects/Ex4/cmake-build-debug/CMakeFiles/Ex4.dir/Board.original.cpp.obj"
+  "C:/Users/abdms/CLionProjects/Ex4/Demo.cpp" "C:/Users/abdms/CLionProjects/Ex4/cmake-build-debug/CMakeFiles/Ex4.dir/Demo.cpp.obj"
   "C:/Users/abdms/CLionProjects/Ex4/DemoGame.cpp" "C:/Users/abdms/CLionProjects/Ex4/cmake-build-debug/CMakeFiles/Ex4.dir/DemoGame.cpp.obj"
   "C:/Users/abdms/CLionProjects/Ex4/FootCommander.cpp" "C:/Users/abdms/CLionProjects/Ex4/cmake-build-debug/CMakeFiles/Ex4.dir/FootCommander.cpp.obj"
   "C:/Users/abdms/CLionProjects/Ex4/FootSoldier.cpp" "C:/Users/abdms/CLionProjects/Ex4/cmake-build-debug/CMakeFiles/Ex4.dir/FootSoldier.cpp.obj"

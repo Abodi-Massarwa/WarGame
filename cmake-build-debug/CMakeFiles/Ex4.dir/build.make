@@ -56,9 +56,22 @@ include CMakeFiles/Ex4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ex4.dir/flags.make
 
+CMakeFiles/Ex4.dir/Demo.cpp.obj: CMakeFiles/Ex4.dir/flags.make
+CMakeFiles/Ex4.dir/Demo.cpp.obj: ../Demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\abdms\CLionProjects\Ex4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ex4.dir/Demo.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex4.dir\Demo.cpp.obj -c C:\Users\abdms\CLionProjects\Ex4\Demo.cpp
+
+CMakeFiles/Ex4.dir/Demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ex4.dir/Demo.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\abdms\CLionProjects\Ex4\Demo.cpp > CMakeFiles\Ex4.dir\Demo.cpp.i
+
+CMakeFiles/Ex4.dir/Demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ex4.dir/Demo.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\abdms\CLionProjects\Ex4\Demo.cpp -o CMakeFiles\Ex4.dir\Demo.cpp.s
+
 CMakeFiles/Ex4.dir/DemoGame.cpp.obj: CMakeFiles/Ex4.dir/flags.make
 CMakeFiles/Ex4.dir/DemoGame.cpp.obj: ../DemoGame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\abdms\CLionProjects\Ex4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ex4.dir/DemoGame.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\abdms\CLionProjects\Ex4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Ex4.dir/DemoGame.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex4.dir\DemoGame.cpp.obj -c C:\Users\abdms\CLionProjects\Ex4\DemoGame.cpp
 
 CMakeFiles/Ex4.dir/DemoGame.cpp.i: cmake_force
@@ -68,19 +81,6 @@ CMakeFiles/Ex4.dir/DemoGame.cpp.i: cmake_force
 CMakeFiles/Ex4.dir/DemoGame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ex4.dir/DemoGame.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\abdms\CLionProjects\Ex4\DemoGame.cpp -o CMakeFiles\Ex4.dir\DemoGame.cpp.s
-
-CMakeFiles/Ex4.dir/Board.cpp.obj: CMakeFiles/Ex4.dir/flags.make
-CMakeFiles/Ex4.dir/Board.cpp.obj: ../Board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\abdms\CLionProjects\Ex4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Ex4.dir/Board.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex4.dir\Board.cpp.obj -c C:\Users\abdms\CLionProjects\Ex4\Board.cpp
-
-CMakeFiles/Ex4.dir/Board.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ex4.dir/Board.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\abdms\CLionProjects\Ex4\Board.cpp > CMakeFiles\Ex4.dir\Board.cpp.i
-
-CMakeFiles/Ex4.dir/Board.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ex4.dir/Board.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\abdms\CLionProjects\Ex4\Board.cpp -o CMakeFiles\Ex4.dir\Board.cpp.s
 
 CMakeFiles/Ex4.dir/Soldier.cpp.obj: CMakeFiles/Ex4.dir/flags.make
 CMakeFiles/Ex4.dir/Soldier.cpp.obj: ../Soldier.cpp
@@ -186,10 +186,23 @@ CMakeFiles/Ex4.dir/Attacker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ex4.dir/Attacker.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\abdms\CLionProjects\Ex4\Attacker.cpp -o CMakeFiles\Ex4.dir\Attacker.cpp.s
 
+CMakeFiles/Ex4.dir/Board.original.cpp.obj: CMakeFiles/Ex4.dir/flags.make
+CMakeFiles/Ex4.dir/Board.original.cpp.obj: ../Board.original.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\abdms\CLionProjects\Ex4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Ex4.dir/Board.original.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex4.dir\Board.original.cpp.obj -c C:\Users\abdms\CLionProjects\Ex4\Board.original.cpp
+
+CMakeFiles/Ex4.dir/Board.original.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ex4.dir/Board.original.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\abdms\CLionProjects\Ex4\Board.original.cpp > CMakeFiles\Ex4.dir\Board.original.cpp.i
+
+CMakeFiles/Ex4.dir/Board.original.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ex4.dir/Board.original.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\abdms\CLionProjects\Ex4\Board.original.cpp -o CMakeFiles\Ex4.dir\Board.original.cpp.s
+
 # Object files for target Ex4
 Ex4_OBJECTS = \
+"CMakeFiles/Ex4.dir/Demo.cpp.obj" \
 "CMakeFiles/Ex4.dir/DemoGame.cpp.obj" \
-"CMakeFiles/Ex4.dir/Board.cpp.obj" \
 "CMakeFiles/Ex4.dir/Soldier.cpp.obj" \
 "CMakeFiles/Ex4.dir/FootSoldier.cpp.obj" \
 "CMakeFiles/Ex4.dir/FootCommander.cpp.obj" \
@@ -197,13 +210,14 @@ Ex4_OBJECTS = \
 "CMakeFiles/Ex4.dir/SniperCommander.cpp.obj" \
 "CMakeFiles/Ex4.dir/Paramedic.cpp.obj" \
 "CMakeFiles/Ex4.dir/ParamedicCommander.cpp.obj" \
-"CMakeFiles/Ex4.dir/Attacker.cpp.obj"
+"CMakeFiles/Ex4.dir/Attacker.cpp.obj" \
+"CMakeFiles/Ex4.dir/Board.original.cpp.obj"
 
 # External object files for target Ex4
 Ex4_EXTERNAL_OBJECTS =
 
+Ex4.exe: CMakeFiles/Ex4.dir/Demo.cpp.obj
 Ex4.exe: CMakeFiles/Ex4.dir/DemoGame.cpp.obj
-Ex4.exe: CMakeFiles/Ex4.dir/Board.cpp.obj
 Ex4.exe: CMakeFiles/Ex4.dir/Soldier.cpp.obj
 Ex4.exe: CMakeFiles/Ex4.dir/FootSoldier.cpp.obj
 Ex4.exe: CMakeFiles/Ex4.dir/FootCommander.cpp.obj
@@ -212,11 +226,12 @@ Ex4.exe: CMakeFiles/Ex4.dir/SniperCommander.cpp.obj
 Ex4.exe: CMakeFiles/Ex4.dir/Paramedic.cpp.obj
 Ex4.exe: CMakeFiles/Ex4.dir/ParamedicCommander.cpp.obj
 Ex4.exe: CMakeFiles/Ex4.dir/Attacker.cpp.obj
+Ex4.exe: CMakeFiles/Ex4.dir/Board.original.cpp.obj
 Ex4.exe: CMakeFiles/Ex4.dir/build.make
 Ex4.exe: CMakeFiles/Ex4.dir/linklibs.rsp
 Ex4.exe: CMakeFiles/Ex4.dir/objects1.rsp
 Ex4.exe: CMakeFiles/Ex4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\abdms\CLionProjects\Ex4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Ex4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\abdms\CLionProjects\Ex4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Ex4.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Ex4.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

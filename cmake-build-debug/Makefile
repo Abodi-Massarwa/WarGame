@@ -149,32 +149,59 @@ Attacker.cpp.s:
 	$(MAKE) -f CMakeFiles\Ex4.dir\build.make CMakeFiles/Ex4.dir/Attacker.cpp.s
 .PHONY : Attacker.cpp.s
 
-Board.obj: Board.cpp.obj
+Board.original.obj: Board.original.cpp.obj
 
-.PHONY : Board.obj
+.PHONY : Board.original.obj
 
 # target to build an object file
-Board.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex4.dir\build.make CMakeFiles/Ex4.dir/Board.cpp.obj
-.PHONY : Board.cpp.obj
+Board.original.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex4.dir\build.make CMakeFiles/Ex4.dir/Board.original.cpp.obj
+.PHONY : Board.original.cpp.obj
 
-Board.i: Board.cpp.i
+Board.original.i: Board.original.cpp.i
 
-.PHONY : Board.i
+.PHONY : Board.original.i
 
 # target to preprocess a source file
-Board.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex4.dir\build.make CMakeFiles/Ex4.dir/Board.cpp.i
-.PHONY : Board.cpp.i
+Board.original.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex4.dir\build.make CMakeFiles/Ex4.dir/Board.original.cpp.i
+.PHONY : Board.original.cpp.i
 
-Board.s: Board.cpp.s
+Board.original.s: Board.original.cpp.s
 
-.PHONY : Board.s
+.PHONY : Board.original.s
 
 # target to generate assembly for a file
-Board.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex4.dir\build.make CMakeFiles/Ex4.dir/Board.cpp.s
-.PHONY : Board.cpp.s
+Board.original.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex4.dir\build.make CMakeFiles/Ex4.dir/Board.original.cpp.s
+.PHONY : Board.original.cpp.s
+
+Demo.obj: Demo.cpp.obj
+
+.PHONY : Demo.obj
+
+# target to build an object file
+Demo.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex4.dir\build.make CMakeFiles/Ex4.dir/Demo.cpp.obj
+.PHONY : Demo.cpp.obj
+
+Demo.i: Demo.cpp.i
+
+.PHONY : Demo.i
+
+# target to preprocess a source file
+Demo.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex4.dir\build.make CMakeFiles/Ex4.dir/Demo.cpp.i
+.PHONY : Demo.cpp.i
+
+Demo.s: Demo.cpp.s
+
+.PHONY : Demo.s
+
+# target to generate assembly for a file
+Demo.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex4.dir\build.make CMakeFiles/Ex4.dir/Demo.cpp.s
+.PHONY : Demo.cpp.s
 
 DemoGame.obj: DemoGame.cpp.obj
 
@@ -404,9 +431,12 @@ help:
 	@echo ... Attacker.obj
 	@echo ... Attacker.i
 	@echo ... Attacker.s
-	@echo ... Board.obj
-	@echo ... Board.i
-	@echo ... Board.s
+	@echo ... Board.original.obj
+	@echo ... Board.original.i
+	@echo ... Board.original.s
+	@echo ... Demo.obj
+	@echo ... Demo.i
+	@echo ... Demo.s
 	@echo ... DemoGame.obj
 	@echo ... DemoGame.i
 	@echo ... DemoGame.s
